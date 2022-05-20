@@ -79,6 +79,7 @@ exports.currentUser = async (req, res) => {
   }
 };
 
+// TODO: implement logout controller - issue #11
 exports.logout = (req, res) => {
   res.sendStatus(200);
 };
